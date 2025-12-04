@@ -1,15 +1,15 @@
-[![Issues](https://img.shields.io/github/issues/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-daycare-centers)](https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-daycare-centers/issues)
+[![Issues](https://img.shields.io/github/issues/open-lifeworlds/open-lifeworlds-data-product-berlin-daycare-centers)](https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-daycare-centers/issues)
 
 <br />
 <p align="center">
-  <a href="https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-daycare-centers">
+  <a href="https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-daycare-centers">
     <img src="logo-with-text.png" alt="Logo" style="height: 80px; ">
   </a>
 
-  <h1 align="center">Berlin LOR Daycare Centers</h1>
+  <h1 align="center">Berlin Daycare Centers</h1>
 
   <p align="center">
-    Data product combining Berlin LOR daycare centers data and geodata
+    Data product combining Berlin daycare centers data and geodata
   </p>
 </p>
 
@@ -66,7 +66,7 @@ uv run main.py
 
 ## Roadmap
 
-See the [open issues](https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-daycare-centers/issues) for a list of proposed features (and
+See the [open issues](https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-daycare-centers/issues) for a list of proposed features (and
  known issues).
 
 ## License

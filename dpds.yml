@@ -1,20 +1,46 @@
 ---
 dataProductDescriptor: data-product-descriptor
 info:
-  fullyQualifiedName: urn:dpds:openlifeworlds:dataproducts:berlin-lor-daycare-centers:1.0
-  name: Berlin LOR Day Care Centers
+  fullyQualifiedName: urn:dpds:openlifeworlds:dataproducts:berlin-daycare-centers:1.0
+  name: Berlin Day Care Centers
   version: '1.0'
   domain: domain
   owner:
     id: Open Lifeworlds
     name: Open Lifeworlds
-  id: berlin-lor-daycare-centers
+  id: berlin-daycare-centers
   entityType:
-  displayName: Berlin LOR Day Care Centers
-  description: Data product providing Berlin daycare center data on different LOR hierarchy levels
+  displayName: Berlin Day Care Centers
+  description: Data product providing Berlin daycare center data on different hierarchy levels
   contactPoints:
 interfaceComponents:
   outputPorts:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-daycare-centers-geojson
+      fullyQualifiedName: berlin-daycare-centers-geojson
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
+    - promises:
+      expectations:
+      obligations:
+      id: berlin-daycare-centers-statistics
+      fullyQualifiedName: berlin-daycare-centers-statistics
+      entityType:
+      name: ''
+      version:
+      displayName:
+      description:
+      componentGroup:
+      tags:
+      externalDocs:
     - promises:
       expectations:
       obligations:
@@ -71,8 +97,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-population-source-aligned
-      fullyQualifiedName: berlin-lor-population-source-aligned
+      id: berlin-population-source-aligned
+      fullyQualifiedName: berlin-population-source-aligned
       entityType:
       name: ''
       version:

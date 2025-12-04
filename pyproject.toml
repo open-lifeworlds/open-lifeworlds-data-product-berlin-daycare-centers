@@ -1,7 +1,7 @@
 [project]
-name = "open-lifeworlds-data-product-berlin-lor-daycare-centers"
+name = "open-lifeworlds-data-product-berlin-daycare-centers"
 version = "0.1.0"
-description = "Data product combining Berlin LOR daycare centers data and geodata"
+description = "Data product combining Berlin daycare centers data and geodata"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [

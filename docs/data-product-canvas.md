@@ -1,13 +1,13 @@
 
-# Data Product Canvas - Berlin LOR Day Care Centers
+# Data Product Canvas - Berlin Day Care Centers
 
 ## Metadata
 
 * owner: Open Lifeworlds
-* description: Data product providing Berlin daycare center data on different LOR hierarchy levels
-* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-daycare-centers
+* description: Data product providing Berlin daycare center data on different hierarchy levels
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-daycare-centers
 * license: CC-BY 4.0
-* updated: 2025-11-06
+* updated: 2025-11-09
 
 ## Input Ports
 
@@ -19,39 +19,68 @@
 
 * manifest URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-daycare-centers-source-aligned/refs/heads/main/data-product-manifest.yml
 
-### berlin-lor-population-source-aligned
+### berlin-population-source-aligned
 
-* manifest URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/refs/heads/main/data-product-manifest.yml
+* manifest URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-population-source-aligned/refs/heads/main/data-product-manifest.yml
 
 ## Output Ports
+
+### berlin-daycare-centers-geojson
+name: Berlin Daycare Centers Geojson
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-daycare-centers/tree/main/data/03-gold/berlin-daycare-centers-geojson
+* license: CC-BY 4.0
+* updated: 2025-11-09
+
+**Files**
+
+* [berlin-daycare-centers-2025-10-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-daycare-centers/refs/heads/main/data/03-gold/berlin-daycare-centers-geojson/berlin-daycare-centers-2025-10-city.geojson)
+* [berlin-daycare-centers-2025-10-details.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-daycare-centers/refs/heads/main/data/03-gold/berlin-daycare-centers-geojson/berlin-daycare-centers-2025-10-details.geojson)
+* [berlin-daycare-centers-2025-10-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-daycare-centers/refs/heads/main/data/03-gold/berlin-daycare-centers-geojson/berlin-daycare-centers-2025-10-district-regions.geojson)
+* [berlin-daycare-centers-2025-10-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-daycare-centers/refs/heads/main/data/03-gold/berlin-daycare-centers-geojson/berlin-daycare-centers-2025-10-districts.geojson)
+* [berlin-daycare-centers-2025-10-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-daycare-centers/refs/heads/main/data/03-gold/berlin-daycare-centers-geojson/berlin-daycare-centers-2025-10-forecast-areas.geojson)
+* [berlin-daycare-centers-2025-10-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-daycare-centers/refs/heads/main/data/03-gold/berlin-daycare-centers-geojson/berlin-daycare-centers-2025-10-planning-areas.geojson)
+
+
+### berlin-daycare-centers-statistics
+name: Berlin Daycare Centers Statistics
+* owner: Open Lifeworlds
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-daycare-centers/tree/main/data/03-gold/berlin-daycare-centers-statistics
+* license: CC-BY 4.0
+* updated: 2025-11-09
+
+**Files**
+
+* [berlin-daycare-centers-statistics.json](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-daycare-centers/refs/heads/main/data/03-gold/berlin-daycare-centers-statistics/berlin-daycare-centers-statistics.json)
+
 
 ### berlin-lor-daycare-centers-geojson
 name: Berlin Lor Daycare Centers Geojson
 * owner: Open Lifeworlds
-* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-daycare-centers/tree/main/data/03-gold/berlin-lor-daycare-centers-geojson
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-daycare-centers/tree/main/data/03-gold/berlin-lor-daycare-centers-geojson
 * license: CC-BY 4.0
-* updated: 2025-11-06
+* updated: 2025-11-09
 
 **Files**
 
-* [berlin-lor-daycare-centers-2025-10-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-daycare-centers/refs/heads/main/data/03-gold/berlin-lor-daycare-centers-geojson/berlin-lor-daycare-centers-2025-10-city.geojson)
-* [berlin-lor-daycare-centers-2025-10-details.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-daycare-centers/refs/heads/main/data/03-gold/berlin-lor-daycare-centers-geojson/berlin-lor-daycare-centers-2025-10-details.geojson)
-* [berlin-lor-daycare-centers-2025-10-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-daycare-centers/refs/heads/main/data/03-gold/berlin-lor-daycare-centers-geojson/berlin-lor-daycare-centers-2025-10-district-regions.geojson)
-* [berlin-lor-daycare-centers-2025-10-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-daycare-centers/refs/heads/main/data/03-gold/berlin-lor-daycare-centers-geojson/berlin-lor-daycare-centers-2025-10-districts.geojson)
-* [berlin-lor-daycare-centers-2025-10-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-daycare-centers/refs/heads/main/data/03-gold/berlin-lor-daycare-centers-geojson/berlin-lor-daycare-centers-2025-10-forecast-areas.geojson)
-* [berlin-lor-daycare-centers-2025-10-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-daycare-centers/refs/heads/main/data/03-gold/berlin-lor-daycare-centers-geojson/berlin-lor-daycare-centers-2025-10-planning-areas.geojson)
+* [berlin-lor-daycare-centers-2025-10-city.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-daycare-centers/refs/heads/main/data/03-gold/berlin-lor-daycare-centers-geojson/berlin-lor-daycare-centers-2025-10-city.geojson)
+* [berlin-lor-daycare-centers-2025-10-details.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-daycare-centers/refs/heads/main/data/03-gold/berlin-lor-daycare-centers-geojson/berlin-lor-daycare-centers-2025-10-details.geojson)
+* [berlin-lor-daycare-centers-2025-10-district-regions.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-daycare-centers/refs/heads/main/data/03-gold/berlin-lor-daycare-centers-geojson/berlin-lor-daycare-centers-2025-10-district-regions.geojson)
+* [berlin-lor-daycare-centers-2025-10-districts.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-daycare-centers/refs/heads/main/data/03-gold/berlin-lor-daycare-centers-geojson/berlin-lor-daycare-centers-2025-10-districts.geojson)
+* [berlin-lor-daycare-centers-2025-10-forecast-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-daycare-centers/refs/heads/main/data/03-gold/berlin-lor-daycare-centers-geojson/berlin-lor-daycare-centers-2025-10-forecast-areas.geojson)
+* [berlin-lor-daycare-centers-2025-10-planning-areas.geojson](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-daycare-centers/refs/heads/main/data/03-gold/berlin-lor-daycare-centers-geojson/berlin-lor-daycare-centers-2025-10-planning-areas.geojson)
 
 
 ### berlin-lor-daycare-centers-statistics
 name: Berlin Lor Daycare Centers Statistics
 * owner: Open Lifeworlds
-* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-daycare-centers/tree/main/data/03-gold/berlin-lor-daycare-centers-statistics
+* url: https://github.com/open-lifeworlds/open-lifeworlds-data-product-berlin-daycare-centers/tree/main/data/03-gold/berlin-lor-daycare-centers-statistics
 * license: CC-BY 4.0
-* updated: 2025-11-06
+* updated: 2025-11-09
 
 **Files**
 
-* [berlin-lor-daycare-centers-statistics.json](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-lor-daycare-centers/refs/heads/main/data/03-gold/berlin-lor-daycare-centers-statistics/berlin-lor-daycare-centers-statistics.json)
+* [berlin-lor-daycare-centers-statistics.json](https://media.githubusercontent.com/media/open-lifeworlds/open-lifeworlds-data-product-berlin-daycare-centers/refs/heads/main/data/03-gold/berlin-lor-daycare-centers-statistics/berlin-lor-daycare-centers-statistics.json)
 
 
 ## Observability
@@ -63,11 +92,11 @@ name: Berlin Lor Daycare Centers Statistics
 
 | Name | Value |
 | --- | --- |
-| berlin-lor-daycare-centers-2025-10-city.geojson | 100 |
-| berlin-lor-daycare-centers-2025-10-districts.geojson | 100 |
-| berlin-lor-daycare-centers-2025-10-forecast-areas.geojson | 100 |
-| berlin-lor-daycare-centers-2025-10-district-regions.geojson | 100 |
-| berlin-lor-daycare-centers-2025-10-planning-areas.geojson | 100 |
+| berlin-daycare-centers-2025-10-city.geojson | 100 |
+| berlin-daycare-centers-2025-10-districts.geojson | 100 |
+| berlin-daycare-centers-2025-10-forecast-areas.geojson | 100 |
+| berlin-daycare-centers-2025-10-district-regions.geojson | 100 |
+| berlin-daycare-centers-2025-10-planning-areas.geojson | 100 |
 
 
 ## Classification
